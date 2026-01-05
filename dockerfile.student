@@ -1,0 +1,5 @@
+#dockerfile
+from python:3.14
+workdir /docker_student 
+copy . .
+cmd ["python","docker_student.py"]
